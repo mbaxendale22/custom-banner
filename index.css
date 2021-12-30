@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  height: 50%;
+  background: #ffd89b;
+  background: -webkit-linear-gradient(to right, #ffd89b, #19547b);
+  background: linear-gradient(to right, #f7d6a1, #19547b);
+  
+}
+
+.heading {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 2px 24px;
+  color: white;
+  font: 800;
+  text-shadow: gray;
+}
+
+.icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+  width: 35%;
+  height: 30%;
+  margin-right: 4px;
+}
+
+i {
+  transform: scale(1.85);
+  margin: 0px 24px;
+}
+
+.git {
+  transform: scale(2.5);
+}
+
+.mongo {
+  transform: scale(2.5);
+}
+
+.django {
+  transform: scale(2.5);
+}
+
